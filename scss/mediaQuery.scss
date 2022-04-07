@@ -1,0 +1,175 @@
+
+$media-mobile : (max-width :767px);
+$media-tab : (max-width :991px);
+
+@media #{$media-mobile} {
+
+    .navbar-nav {
+        // display: none;
+     .list-unstyled {
+        //  display: inline;
+        //  width: 100%;
+        display: inline !important;
+        top: 62px !important;
+        right: 0 !important;
+        background-color:#2f3539 ;
+        transform: translateY(-120%);
+        transition: all 0.5s ease-in-out;
+        text-align: center !important;
+        &.show{
+        transform: translateY(0);
+            
+        }
+        li{
+            justify-content: center;
+        }
+     }     
+    }
+}
+
+
+@media #{$media-tab} {
+    .home {
+        .navbar-nav{
+            ul{
+                right: 10px;
+            }
+        } 
+
+    }
+}
+.toggle{
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 28px;
+    cursor: pointer;
+    font-size: 22px;
+    display: none;
+        
+
+}
+@media #{$media-mobile} {
+    .toggle{
+
+        display: block;
+    
+    }
+    .home {
+        .home-page{
+            padding: 50px 0;
+        }
+        .none-mobiel{
+            display: none;
+        }
+    } 
+
+}
+
+
+@media #{$media-mobile} {
+    .logo-company{
+        img{
+        width: 110px;
+
+        }
+    }
+}
+@media (max-width :576px) {
+    .logo-company{
+        img{
+        width: 80px;
+
+        }
+    }
+}
+
+@media #{$media-mobile} {
+    .amazing{
+        padding: 50px 0;
+    }
+}
+@media #{$media-mobile} {
+    .mobile-dev {
+        padding: 30px 0;
+    }
+    }
+
+    @media #{$media-mobile} {
+        .subscribe{ 
+            .head{
+            
+                font-size: 18px;
+            }
+            .form{
+            input{
+                width: 100% !important;
+            }
+            .btn{
+                right: 0 !important;
+                background-color: #2f3539;
+                padding: 10px 30px;
+            }
+            }
+            }
+        }
+
+
+        @media #{$media-mobile} {
+            .team {
+                padding: 50px 0;
+               
+            }
+            }
+
+            
+        @media #{$media-mobile} {
+            .head{
+                font-size: 25px;
+            }
+            }
+
+            @media #{$media-mobile} {
+                .services {
+                    padding: 50px 0;
+                    .feature-box{ 
+                        i{
+                            left: 0;
+                        }
+                        .feature-inner{
+                            padding: 0 55px;
+                        }
+                    
+                    }  
+                }
+                }
+    
+                @media #{$media-mobile} {
+                    .Discover{
+                        padding: 50px 0;
+                    }
+                    } 
+
+                    
+                @media #{$media-mobile} {
+                    .video-wrapper{
+                        padding: 50px 0;
+                        .head{
+                            font-size: 20px;
+                        }
+                    }
+
+                    } 
+                @media #{$media-mobile} {
+                    .contact-us {
+                        padding: 50px 0;
+                }
+                    } 
+                    @media #{$media-mobile} {
+                        .footer {
+                            span{
+                                font-size: 18px;
+                            }
+                    }
+                        } 
+                    

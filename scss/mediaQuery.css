@@ -1,0 +1,140 @@
+@media (max-width: 767px) {
+  .navbar-nav .list-unstyled {
+    display: inline !important;
+    top: 62px !important;
+    right: 0 !important;
+    background-color: #2f3539;
+    -webkit-transform: translateY(-120%);
+            transform: translateY(-120%);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    text-align: center !important;
+  }
+  .navbar-nav .list-unstyled.show {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .navbar-nav .list-unstyled li {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .home .navbar-nav ul {
+    right: 10px;
+  }
+}
+
+.toggle {
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 28px;
+  cursor: pointer;
+  font-size: 22px;
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .toggle {
+    display: block;
+  }
+  .home .home-page {
+    padding: 50px 0;
+  }
+  .home .none-mobiel {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo-company img {
+    width: 110px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-company img {
+    width: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .amazing {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-dev {
+    padding: 30px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .subscribe .head {
+    font-size: 18px;
+  }
+  .subscribe .form input {
+    width: 100% !important;
+  }
+  .subscribe .form .btn {
+    right: 0 !important;
+    background-color: #2f3539;
+    padding: 10px 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .team {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .head {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .services {
+    padding: 50px 0;
+  }
+  .services .feature-box i {
+    left: 0;
+  }
+  .services .feature-box .feature-inner {
+    padding: 0 55px;
+  }
+}
+
+@media (max-width: 767px) {
+  .Discover {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .video-wrapper {
+    padding: 50px 0;
+  }
+  .video-wrapper .head {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-us {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer span {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=mediaQuery.css.map */
